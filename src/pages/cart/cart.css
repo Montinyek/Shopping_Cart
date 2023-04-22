@@ -47,6 +47,9 @@
 }
 
 .countHandler button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: rgb(19, 19, 19);
   border-radius: 3px;
@@ -94,18 +97,22 @@
   .cartItem {
     width: 350px;
   }
+
   .itemHandler {
     flex-direction: column;
     width: 100%;
     align-items: center;
     gap: 1rem;
   }
+
   .removeAll {
     width: 70%;
   }
+
   .checkout {
     width: 20rem;
   }
+
   .cartItem img {
     margin-right: 0.3rem;
   }
@@ -116,18 +123,26 @@
     align-items: center;
     width: 15rem;
   }
+
   .countHandler button, .removeAll {
     font-size: 1rem;
   }
+
   .countHandler button {
+    width: 1.9rem;
+  }
+
+  .countHandler input {
     width: 2rem;
   }
+
   .checkout-inner-flex {
     flex-direction: column;
     gap: 2rem
   }
+
   .cartItem .description {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -135,10 +150,12 @@
   .cartItem {
     width: 250px;
   }
+
   .cartItem img {
     width: 80px;
     margin-right: 1.5rem;
   }
+
   .checkout {
     width: 15rem;
   }
